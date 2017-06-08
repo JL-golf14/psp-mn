@@ -37,12 +37,15 @@
     "svg-assets-cache": "^1.0.0",
     "underscore": "^1.8.3"
   },
+  "engines": {
+    "node": "0.12.7"
+  },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/chris-stanton/psp-group-project.git"
+    "url": "git+https://github.com/JL-golf14/psp-mn.git"
   },
   "bugs": {
-    "url": "https://github.com/chris-stanton/psp-group-project/issues"
+    "url": "https://github.com/JL-golf14/psp-mn.git/issues"
   },
-  "homepage": "https://github.com/chris-stanton/psp-group-project#readme"
+  "homepage": "https://github.com/JL-golf14/psp-mn.git#readme"
 }
