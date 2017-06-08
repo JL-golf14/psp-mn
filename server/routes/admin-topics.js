@@ -1,11 +1,7 @@
 var express = require('express');
 var router = express.Router();
 var pool = require('../modules/database-config');
-//*****************************************//
-//                                         //
-//               MAIN TOPIC                //
-//                                         //
-//*****************************************//
+
 //**********************************************//
 //           ADMIN UPDATE ACTIVE TOPIC          //
 //**********************************************//

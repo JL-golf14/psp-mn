@@ -66,11 +66,10 @@ router.post('/newUser', function (req, res) {
       //   res.sendStatus(500);
       // }
        if(data && data.divisions){
-        //  console.log("++++++++++++++++++data",data);
         newUser.ward = 0;
         for (var i = 0; i <= 14; i++) {
           // console.log(typeof data.divisions['ocd-division/country:us/state:mn/place:minneapolis/ward:' + i ]);
-          if (typeof data.divisions['ocd-division/country:us/state:mn/place:minneapolis/ward:' + i ] !== 'undefined') {
+          if (typeof data.divisions['ocd-division/country:us/state:mn/place:stpaul/ward:' + i ] !== 'undefined') {
             newUser.ward = (i);
           }//end of if
         }//end of for loop
