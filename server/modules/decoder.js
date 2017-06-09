@@ -7,7 +7,7 @@ var admin = require("firebase-admin");
 
 
 admin.initializeApp({
- credential: admin.credential.cert(env("APP_ENV")),
+ credential: admin.credential.cert("APP_ENV"),
  databaseURL: "https://psp-group.firebaseio.com/", // replace this line with your URL
 });
 /* This is where the magic happens. We pull the id_token off of the request,
